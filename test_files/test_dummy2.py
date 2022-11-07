@@ -6,7 +6,7 @@ def testbuddy():
     assert 1 == 1
 
 def testsmth():
-    assert 'a' == 'd'
+    assert 'a' == 'g'
 
 def test_smth():
     a = 3
@@ -14,5 +14,7 @@ def test_smth():
     assert a == b
 
 def test_th():
-    awfsesr
     assert 5 == 3
+
+def test_is_float():
+    assert isinstance(30/6,int)
