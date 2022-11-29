@@ -131,3 +131,5 @@ dmypy.json
 .vscode
 .pytest_cache
 __pycache__
+# del tests
+.test_dummy2.py
